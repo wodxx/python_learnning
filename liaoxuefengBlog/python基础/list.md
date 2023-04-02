@@ -24,9 +24,9 @@ list 为一个数组
 
 classmates = ('Michael', 'Bob', 'Tracy')
 
-1. 没有append()，insert()这样的方法,即不能增、删、改元组里面的元素。但可以正常索引，同list。
+1. 没有append()，insert()这样的方法,即不能增、删元组里面的元素。但可以正常索引，同list。
 
-2. tuple有什么意义？因为tuple不可变，所以代码更安全。如果可能，能用tuple代替list就尽量用tuple。tuple所谓的“不变”是说，tuple的每个元素，指向永远不变。指向的具体内容可以变，如果元组中的一个元素是一个list，那么可以变这个list里的元素。
+2. tuple有什么意义？因为tuple不可变，所以代码更安全。如果可能，能用tuple代替list就尽量用tuple。**tuple所谓的“不变”是说，tuple的每个元素，指向永远不变。指向的具体内容可以变**，如果元组中的一个元素是一个list，那么可以变这个list里的元素。
 
 ```PY
 t = ('a', 'b', ['A', 'B'])
