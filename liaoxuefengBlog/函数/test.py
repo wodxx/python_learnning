@@ -11,6 +11,8 @@ def function(a, b, c):
         x2 = (-b - math.sqrt(delta)) / (2 * a)
     return x1, x2
 
+# Python中幂运算可以使用**表示
+
 print(function(2, 3, 1))
         
 
